@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+} 
+/* header */
+header {
+    margin: 20px 100px;
+}
+.img1 {
+
+    float:left;
+}
+/* navbar */
+.nav {
+    float:right;
+}
+.nav ul {
+    text-align: center;
+    margin-top: 20px;
+}
+.nav ul li {
+    list-style: none;
+    display: inline;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    padding: 15px 30px;
+}
+.navExtra {
+    background-color: #47AEE1;
+    border-radius: 25px;
+}
+.nav ul li :hover {
+    color: #47AEE1;
+}
+/* main */
+/* section1 */
+
+
