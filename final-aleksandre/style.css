@@ -5,6 +5,7 @@
 /* header */
 header {
     margin: 20px 100px;
+    font-family: sans-serif;
 }
 .img1 {
 
@@ -27,6 +28,7 @@ header {
     color: #000000;
     font-size: 16px;
     padding: 15px 30px;
+    transition: .5s;
 }
 .navExtra {
     background-color: #47AEE1;
@@ -37,14 +39,49 @@ header {
 }
 /* main */
 /* section1 */
-main section .felx-container {
-    margin: 20px 100px;
-    display: flex;
-}
-main section .img2 {
-    width: 50%; 
-    height: auto;
-} 
 
+
+main section .flex-container1 img{
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+main section .flex-container1 div .info{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 40%;
+    position: absolute;
+    margin: 23% 15%;
+    font-size: 25px;
+}
+
+main section .flex-container1 div .title {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+    position: absolute;
+    margin: 15% 15%;
+    font-size: 40px;
+}
+
+main section .flex-container1 div button{
+    border: none;
+    background:#47AEE1;
+    width: 13%;
+    height: 5vh;
+    color:white;
+    border-radius: 25px;
+    margin: 35% -2%;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .5s;
+}
+
+main section .flex-container1 div button:hover{
+    color:white;
+    background: black;
+}
 
 
