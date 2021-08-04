@@ -37,5 +37,14 @@ header {
 }
 /* main */
 /* section1 */
+main section .felx-container {
+    margin: 20px 100px;
+    display: flex;
+}
+main section .img2 {
+    width: 50%; 
+    height: auto;
+} 
+
 
 
