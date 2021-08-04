@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normal.css">
+</head>
+<body>
+    <style>
+        * {
+    margin: 0px;
+    padding: 0px;
+        }
+/* header ==================================================================*/
+    .flex-header {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px 100px;
+    }
+    .icon {
+        width: 100px;
+        height: 30px;
+    }
+    /*navbar ============*/
+    .icon {
+        width: 100px;
+        height: 30px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    li {
+        float: left;
+        margin: 0px 20px;
+    }
+
+    li a {
+        display: block;
+        color: #181C28;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        color: #47AEE1;
+    }    
+    li a span {
+        border-radius: 25px;
+        display: inline-block;
+        margin-top: -10px;
+        padding: 10px 30px;
+        background-color:#47AEE1;
+        color: #ffff;
+        transition: all .4s ease;
+    }
+    li a span:hover {
+        color: #47AEE1;
+        background-color: #ffff;
+        
+    } 
+    /* body/main/section1/ =========== */
+    .firstsection {
+        margin: 50px 100px;
+    }
+        
+    
+    .flex-first {
+        display: flex;
+        gap: 300px;
+        justify-content: center;
+    }
+    .firstbigtext {
+        margin-top: 100px;
+    }
+    .firstimage {
+        width: 500px;
+        height: auto;
+    }
+    </style>
+    <header class="header">
+        <div class="flex-header">
+            <img class="icon" src="images/Logo.png">
+            <ul>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><span class="Quote"> Get Quote</span></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="flex-first">
+                <div><h1 class="firstbigtext">Let’s<span style="color: #47AEE1;"> Build </span>Great<br>Experiences Together</h1></div>
+                <div><img class="firstimage" src="images/Illustration.png"></div>
+            </div>
+        </section>
+    
+    
+    
+    
+    
+    
+    
+    </main>
+    <footer></footer>
+</body>
+</html>
