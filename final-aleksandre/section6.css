@@ -1,0 +1,14 @@
+.flex-contact {
+    display: flex;
+    justify-self: center;
+}
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #262222;
+}

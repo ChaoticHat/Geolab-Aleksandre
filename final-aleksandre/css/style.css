@@ -132,6 +132,7 @@ li a .GetQoute {
     padding-top: 100px;
 }
 .flex-container5 {
+    font-size: 24px;
     margin: 50px 0px;
     display: flex;
     justify-content: center;
@@ -158,6 +159,7 @@ li a .GetQoute {
 }
 .viewall {
     margin-top: 30px;
+    margin-bottom: 50px;
     color: #fff;
     background-color: #47AEE1;
     border-radius: 20px;
@@ -165,3 +167,11 @@ li a .GetQoute {
     text-decoration: none;
     font-weight: bold;
 }
+/* section5 */ 
+.section5 {
+    height: 100%;
+    background: linear-gradient(180deg, #fff 50%, #47AEE1 50%);
+}
+/* section6 */
+
+
