@@ -2,6 +2,10 @@
     height: 100%;
     background: linear-gradient(180deg, #fff 50%, #47AEE1 50%);
 }
+.flex-contact {
+    display: flex;
+    justify-self: center;
+}
 .flex-container2 {
     display: flex;
     justify-content: center;
