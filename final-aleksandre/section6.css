@@ -16,3 +16,26 @@
     font-size: 30px;
     color: #262222;
 }
+.Submit-Email {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Submit-Email input {
+    width: 20%;
+    height: 5vh;
+    border: 0.3px solid #ccc;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+.Submit-Email button {
+    width: 10%;
+    height: 5vh;
+    border: none;
+    background-color: #47AEE1;
+    cursor: pointer;
+    color: white;
+    border-radius: 25px;
+}

@@ -1,3 +1,9 @@
+
+
+p { 
+    outline: #707070;
+    color: #262222;
+}
 html, body {
     max-width: 100%;
     overflow-x: hidden;
@@ -94,6 +100,11 @@ li a .GetQoute {
     justify-content: center;
     justify-content: space-between;
 }
+.flex-container3 :hover {
+    background-color: #47E1AE;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
 .img3 {
     height: 150px;
     width: auto;
@@ -142,9 +153,16 @@ li a .GetQoute {
     justify-content: center;
     justify-content: space-evenly;
 }
-.Allwork {
+.lilnav {
+    text-decoration: none;
+}
+.lilnav :hover {
     color: #fff;
-    text-decoration: #fff;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+.Allwork {
+    color: #fff;;
 }
 .flex-container6 {
     display: flex;
@@ -164,12 +182,14 @@ li a .GetQoute {
 .viewall {
     margin-top: 30px;
     margin-bottom: 50px;
-    color: #fff;
     background-color: #47AEE1;
     border-radius: 20px;
     padding: 0px 30px;
     text-decoration: none;
     font-weight: bold;
+}
+.viewall p {
+    color: #fff;
 }
 /* section5 */ 
 body {
@@ -212,6 +232,143 @@ body {
     padding: 15px 25px;
     text-align: center;
 }
+.flex-container8 :hover {
+    background-color: #47AEE1;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
 /* section6 */
+.section6 {
+    background-color: #47e1ae15;
+    padding: 50px 0;
+}
+.flex-contact {
+    display: flex;
+    justify-self: center;
+}
+.flex-container2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.title2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #262222;
+}
+.Submit-Email {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
 
+.Submit-Email input {
+    width: 250px;
+    height: 5vh;
+    border: 0.3px solid #ccc;
+    border-radius: 10px;
+    padding-left: 10px;
+}
 
+.Submit-Email button {
+    width: 100px;
+    height: 5vh;
+    border: none;
+    background-color: #47AEE1;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    right: 20px;
+}
+/* section7 */
+.flex-container9 {
+    display: flex;
+    justify-content: start;
+    gap: 100px;
+}
+.box2 {
+    background-image: url("../images/Contact\ Form\ Background.png");
+    background-repeat: no-repeat;
+    background-size: 600px auto;
+    padding: 150px;
+}
+.Submit2 {
+    margin: 10px 0;
+}
+.Submit2 input {
+    width: 400px;
+    height: 35px;
+    border: 0.3px solid #ccc;
+    border-radius: 25px;
+}
+.Submit3 {
+    margin: 10px 0;
+}
+.Submit3 input {
+    width: 400px;
+    height: 150px;
+    border: 0.3px solid #ccc;
+    border-radius: 25px;
+}
+.p3 {   
+    color: #fff;
+    margin-left: 10px;
+}
+.submit {
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #47E1AE;
+    text-decoration: none;
+}
+.submitbox {
+    margin: 20px 0;
+}
+/* footer */ 
+footer {
+    background-color: #495254;
+    padding: 50px 0 100px 0;
+}
+.flex-container10 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.flex-container11 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.liltext2 {
+    text-decoration: none;
+}
+.textlast {
+    color: #fff;
+}
+.logo2 {
+    width: 200px;
+    height: auto;
+}
+.Submit-Email2 {
+    margin: -10px 0 70px 0;
+
+}
+.Submit-Email2 input {
+    width: 250px;
+    height: 5vh;
+    border: 0.3px solid #ccc;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.Submit-Email2 button {
+    width: 100px;
+    height: 5vh;
+    border: none;
+    background-color: #47AEE1;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
